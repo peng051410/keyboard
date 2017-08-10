@@ -23,7 +23,7 @@ control_handler = function(evt)
     control_key_timer:start()
   else
     if send_escape then
-      keyUpDown({}, 'escape')
+      keyUpDown({}, 'delete')
     end
     last_mods = new_mods
     control_key_timer:stop()
