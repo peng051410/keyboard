@@ -90,7 +90,8 @@
             "simple_modifications": {
                 "caps_lock": "left_control",
                 "left_command": "left_option",
-                "left_option": "left_command"
+                "left_option": "left_command",
+                "right_shift": "f7"
             },
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
