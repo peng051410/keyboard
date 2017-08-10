@@ -52,7 +52,7 @@ hs.hotkey.bind({'ctrl'}, ';', function()
   -- then delete the selected text.
   if isInTerminal() then
     hotkeyForControlK = hs.fnutils.find(hs.hotkey.getHotkeys(), function(hotkey)
-      return hotkey.idx == '^k'
+      return hotkey.idx == '^K'
     end)
     if hotkeyForControlK then hotkeyForControlK:disable() end
 
