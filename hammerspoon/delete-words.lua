@@ -6,23 +6,23 @@ local isInTerminal = function()
 end
 
 -- Use option + h to delete previous word
-hs.hotkey.bind({'alt'}, 'h', function()
-  if isInTerminal() then
-    keyUpDown({'ctrl'}, 'w')
-  else
-    keyUpDown({'alt'}, 'delete')
-  end
-end)
+--hs.hotkey.bind({'alt'}, 'h', function()
+--  if isInTerminal() then
+--    keyUpDown({'ctrl'}, 'w')
+--  else
+--    keyUpDown({'alt'}, 'delete')
+--  end
+--end)
 
 -- Use option + l to delete next word
-hs.hotkey.bind({'alt'}, 'l', function()
-  if isInTerminal() then
-    keyUpDown({}, 'escape')
-    keyUpDown({}, 'd')
-  else
-    keyUpDown({'alt'}, 'forwarddelete')
-  end
-end)
+--hs.hotkey.bind({'alt'}, 'l', function()
+--  if isInTerminal() then
+--    keyUpDown({}, 'escape')
+--    keyUpDown({}, 'd')
+--  else
+--    keyUpDown({'alt'}, 'forwarddelete')
+--  end
+--end)
 
 -- Use control + u to delete to beginning of line
 --
