@@ -129,7 +129,9 @@
             },
             "name": "apple",
             "selected": false,
-            "simple_modifications": {},
+            "simple_modifications": {
+                "caps_lock": "delete_or_backspace"
+            },
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "keyboard_type": "ansi"
